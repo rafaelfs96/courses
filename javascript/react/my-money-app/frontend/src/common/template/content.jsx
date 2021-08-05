@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({children}) => {
+export default function Content({children}) {
   return (
     <section className='content'>
       { children }

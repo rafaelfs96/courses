@@ -10,7 +10,7 @@ import Footer from '../common/template/footer'
 
 import Messages from '../common/msg/messages'
 
-export default ({}) => {
+export default function App() {
   return (
     <Router>
       <Messages />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default ({path, icon, label}) => {
+export default function MenuItem({path, icon, label}) {
   return (
     <li>
       <Link to={path}>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({children}) => {
+export default function Tabs({children}) {
   return (
     <div className='nav-tabs-custom'>
       { children }

@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
-export default ({icon, label, children}) => {
+export default function MenuTree({icon, label, children}) {
   return (
     <li className='treeview'>
       <a href='#'>

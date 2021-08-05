@@ -9,7 +9,7 @@ import Row from '../common/layout/row'
 
 const base_url = 'http://localhost:3003/api/'
 
-export default function Dashboard({}) {
+export default function Dashboard() {
   const [{credit, debt}, setSummary] = useState({credit: 0, debt: 0})
 
   useEffect(() => {

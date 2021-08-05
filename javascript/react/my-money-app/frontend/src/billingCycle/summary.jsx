@@ -4,7 +4,7 @@ import Grid from '../common/layout/grid'
 import Row from '../common/layout/row'
 import ValueBox from '../common/widget/valueBox'
 
-export default ({credit, debt}) => {
+export default function Summary({credit, debt}) {
   return (
     <Grid cols='12'>
       <fieldset>

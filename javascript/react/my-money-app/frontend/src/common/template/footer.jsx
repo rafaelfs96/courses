@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
-export default props => {
+export default function Footer(props) {
   return (
     <footer className='main-footer'>
       <strong>
