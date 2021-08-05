@@ -1,11 +1,14 @@
 import React from 'react'
 import If from './If'
 
-export default props => (
-  <If test={ !props.hide }>
-    <button className={ 'btn btn-' + props.type } 
-      onClick={ props.onClick }>
-      <i className={ 'fa fa-' + props.icon }></i>
-    </button>
-  </If>
-)
+export default function IconButton({hide, type, icon, onClick}) {
+  return (
+    <If test={ !hide }>
+      <button className={ 'btn btn-' + type } 
+        onClick={ onClick }>
+        <i className={ 'fa fa-' + icon }></i>
+      </button>
+    </If>
+  )
+  
+}

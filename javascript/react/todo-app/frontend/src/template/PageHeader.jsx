@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default props => (
-  <header className='page-header'>
-    <h2>{ props.name } <small>{ props.small }</small></h2>
-  </header>
-)
+export default function PageHeader({name, small}) {
+  return (
+    <header className='page-header'>
+      <h2>{ name } <small>{ small }</small></h2>
+    </header>
+  )
+}

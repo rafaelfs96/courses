@@ -9,7 +9,7 @@ import {
 
 const INITIAL_STATE = { description: '', list: [] }
 
-export default (state = INITIAL_STATE, action) => {
+export default function todoReducer(state = INITIAL_STATE, action) {
   switch(action.type) {
     case DESCRIPTION_CHANGED:
       return { ...state, description: action.payload }

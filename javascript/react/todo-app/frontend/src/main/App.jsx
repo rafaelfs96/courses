@@ -5,11 +5,13 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Menu from '../template/Menu'
 import Routes from './Routes'
 
-export default props => (
-  <div>
-    <Router>
-      <Menu />
-      <Routes />
-    </Router>
-  </div>
-)
+export default function App() {
+  return (
+    <div>
+      <Router>
+        <Menu />
+        <Routes />
+      </Router>
+    </div>
+  )  
+}
