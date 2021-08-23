@@ -4,7 +4,7 @@
   "description": "A complete guide to PWAs. Building a simple Instagram clone.",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -c-1 -p 9999"
+    "start": "npx http-server -c-1 -p 9999"
   },
   "keywords": [
     "pwa",
@@ -15,8 +15,5 @@
     "tutorial"
   ],
   "author": "Rafael",
-  "license": "ISC",
-  "devDependencies": {
-    "http-server": "^0.10.0"
-  }
+  "license": "ISC"
 }
