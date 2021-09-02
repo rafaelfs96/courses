@@ -70,3 +70,6 @@ services:
       - fila
     depends_on:
       - queue
+
+
+# use docker-compose up -d --scale worker=num_of_workers to start containers and create multiple instances for worker-app
